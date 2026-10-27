@@ -26,7 +26,7 @@ accuracy = accuracy_score(y_test, result) * 100
 print(f"Accuracy is {accuracy}")
 
 features = [
-    [int(i) for i in input(
+    [float(i) for i in input(
         f"Enter {iris.feature_names}"
     ).split()]
 ]

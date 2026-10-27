@@ -41,8 +41,8 @@ plt.scatter(
 )
 
 plt.title("Predicted classification")
-plt.xlabel("Petal length")
-plt.ylabel("Petal width")
+plt.xlabel("Sepal length")
+plt.ylabel("Sepal width")
 
 
 plt.subplot(1, 2, 2)
@@ -54,7 +54,7 @@ plt.scatter(
 )
 
 plt.title("Actual classification")
-plt.xlabel("Petal length")
-plt.ylabel("Petal width")
+plt.xlabel("Sepal length")
+plt.ylabel("Sepal width")
 
 plt.show()
